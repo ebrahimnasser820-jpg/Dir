@@ -1,0 +1,217 @@
+body{
+    margin:0;
+    padding:0;
+    color:white;
+    background-color:#0b1020;
+        font-family: Arial, sans-serif; 
+        text-transform: capitalize;
+}
+header {
+    direction: rtl;
+    z-index: 100000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7% ;
+    text-transform:capitalize;
+    position: sticky;
+    top: 0;
+    background-color: #0b1020;
+    height: 50px;
+}
+
+header nav{
+font-size: 17px;
+    margin-left: 60px;
+}
+
+header nav a {
+gap:20px;
+    color: white;
+    text-decoration: none;
+    padding-left:18px;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover{
+    color:#00aaff;
+}
+
+header h1{
+    margin-right:80px;
+    color:#00aaff;
+}
+
+/*=============section==================*/
+.hero{
+    min-height: 550px;
+    background-image: linear-gradient(rgba(5, 10, 25, 0.7),
+     rgba(5, 10, 25, 0.8)),
+      url(https://images.unsplash.com/photo-1542751371-adc38448a05e);
+ background-size: contain;
+ background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 30px;
+}
+
+.hero-centent{
+max-width: 700px;
+direction: rtl;
+}
+
+.hero-centent h1 {
+font-size: 3.8rem;
+margin-bottom: 20px;
+}
+
+.hero-centent span{
+    color: #00aaff;
+    font-size:3.8rem;
+}
+
+.hero-centent p{
+font-size: 1.3rem;
+line-height: 1.8;
+margin-bottom: 30px;
+color: #eee;
+}
+
+.hero-btn{
+background-color: #00aaff;
+    display: inline-block;
+    padding: 14px 35px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    transition:0.3s;
+    font-size: 1.1rem;
+}
+.hero-btn:hover{
+    scale: 1.1;
+    background-color: #077bb6;
+}
+
+/*======================================Gaming=======================================*/
+.gaming{
+    font-size: 1.3rem;
+    
+}
+.gaming h1{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+.gaming span{
+    color: #00aaff;
+}
+/*================card================*/
+.game-card{
+    box-shadow: 10px 10px 10px  #010102;
+    transition: all 0.8s ease;
+    margin: 10px 0;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    width: 95%px;
+    height:400px;
+    background-color: #151d33;
+    border-radius: 20px;
+}
+.game-card:hover{
+    box-sizing: border-box;
+    box-shadow: 0 4px 50px #077cb69d;
+    translate:0 -26px;
+}
+
+.game-info{
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    color:white;
+    direction:rtl;
+    padding-right: 20px;
+}
+
+.game-card img{
+    width: 307px;
+    height: 220px ;
+    object-fit: cover;
+    display: block;
+}
+
+.game-info p{
+    width:300px;
+    color:#eeeeeece;
+    font-size: 15px
+}
+.height{
+    width: 322px;
+}
+
+.games-container{
+    overflow: hidden;
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+        padding: 66px 20px;
+        gap: 40px;
+}
+ .game-link{
+    border-radius: 8px;
+    width: 90px;
+    height: 40px;
+    background-color: #077bb6;
+ }
+.game-link a{
+text-decoration: none;
+color: #efefef;
+display: flex;
+justify-content: center;
+font-size: 16px;
+padding: 10px;
+overflow: hidden;
+
+}
+.game-link:hover{
+    scale: 1.1;
+    background-color: #077cb692;
+}
+/*===============================================*/
+.hero-pro{
+    background-color: #11182b;
+    min-height: 250px;
+}
+.hero-pro-h{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+.hero-pro-h h2 span{
+    color: #00aaff;
+    padding-right: 10px;
+}
+.hero-pro-p {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    color: #eeeeee7c;
+}
+/*==========================*/
+footer h2{
+        margin-top: 23px;
+    margin-bottom: -8px;
+    display: flex;
+    justify-content: center;
+color: #00aaff;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    color:#eeeeee7c;
+}
